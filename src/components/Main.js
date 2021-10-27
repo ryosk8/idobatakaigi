@@ -12,12 +12,12 @@ const useStyle =makeStyles({
   },
 });
 
-const Main = () =>{
+const Main = ({name}) =>{
   const classes = useStyle();
     return (
     <div className={classes.root} >
       <MessageList/>
-      <MessageInputField /* name={name} */ />
+      <MessageInputField  name={name}  />
     </div>
     )
 }
