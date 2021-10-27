@@ -17,7 +17,7 @@ const Main = () =>{
     return (
     <div className={classes.root} >
       <MessageList/>
-      <MessageInputField name={name} />
+      <MessageInputField /* name={name} */ />
     </div>
     )
 }
